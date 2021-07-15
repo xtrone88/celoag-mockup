@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Mont-Regular";
+    src: url('assets/font/Mont-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Mont-SemiBold";
+    src: url('assets/font/Mont-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Mont-Bold";
+    src: url('assets/font/Mont-Bold.ttf') format('truetype');
+}
+
+.gradient-bg-1 {
+    background: linear-gradient(264.42deg, #9A4DCB -0.95%, #011F8B 134.81%);
+    background-size: 100% 80%;
+}
+
+.overlay {
+    transition: .5s ease;
+}
+
+.has-overlay:hover>.overlay {
+    opacity: 1;
+}
+
+.cart-width {
+    max-width: 450px;
+}
+
+.text-small {
+    font-size: 9px;
+}
+
+.-z-1 {
+    z-index: -1;
+}
+
+.bg-gray-white {
+    background-color: #f9f9f9;
+    min-height: 90px;
+}
+
+.bg-gray {
+    background-color: #F4F4F4;
+}
+
+.bg-gray-light {
+    background-color: #F9F9F9;
+}
+
+.cart-width {
+    max-width: 550px;
+}
+
+.image-z-index {
+    z-index: 1;
+}
+
+.bg-indigo{
+    color: #021F8B;
+}
+
+.bg-indigo-full{
+    background-color: #021F8B;
+}
+
+.border-indigo{
+    border-color: #021F8B;
+}
+
+.content-width {
+    max-width: 600px;
+}
+
+.gm-style a,
+.gmnoprint,
+.gm-style-cc,
+.ant-tooltip-inner,
+.gm-fullscreen-control {
+  display: none !important;
+}
+.pac-container:after {
+  background-image: none !important;
+  height: 0px;
+}
+
+.box-max-width {
+    max-width: 800px;
+}
+
+.box-max-width2 {
+    max-width: 950px;
+}
